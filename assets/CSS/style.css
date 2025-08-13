@@ -358,3 +358,117 @@
 }
 
 /* End Section 6 */
+
+/* Section 7 */
+.section-7{
+    background-color: #F2F2FE;
+    padding: 100px 0;
+}
+
+.section-7 .inner-head{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-7 .inner-head h5{
+    font-size: 30px;
+}
+
+.section-7 .inner-head p{
+    color: var(--color-small-text);
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    font-size: 15px;
+}
+
+.section-7 .inner-body .inner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-three);
+    padding: 30px;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.section-7 .inner-body .inner-box h6{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.section-7 .inner-body .inner-box .price-box{
+    background-color: var(--color-two);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}
+
+.section-7 .inner-body .inner-box .price-box h4{
+    font-size: 28px;
+}
+
+.section-7 .inner-body .row .col-lg-4:nth-child(2) .inner-box .price-box{
+    background-color: var(--color-one);
+}
+
+
+.section-7 .inner-body .inner-box .support-items{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.section-7 .inner-body .inner-box .support-items .LineThrough{
+    text-decoration: line-through;
+}
+
+.section-7 .inner-body .inner-box .button{
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--color-two);
+    text-align: center;
+    border: transparent;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: all 0.3s ease;
+    font-size: 13px;
+}
+
+.section-7 .inner-body .inner-box .button:hover{
+    background-color: var(--color-one);
+}
+
+/* End Section 7 */
+
+/* Section 8 */
+.section-8{
+    background-image: url(/assets/images/fun-facts-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.section-8 .inner-item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.section-8 .inner-item strong{
+    font-size: 30px;
+}
+
+/* .section-8 .inner-item span{
+
+} */
+/* End Section 8 */
