@@ -4,7 +4,9 @@
     --color-one: #FF589E;
     --color-two: #8261EE;
     --color-three: #FFFFFF;
-    --color-small-text: #777;
+    --color-four: #F2F2FE;
+    --color-small-text-one: #777;
+    --color-small-text-two: #7C8FAD;
     --main-font: "Raleway", sans-serif;
 }
 
@@ -18,4 +20,9 @@ a{
 
 li{
     list-style-type: none;
+}
+
+::selection {
+    background-color: var(--color-one);
+    color: white;            
 }
