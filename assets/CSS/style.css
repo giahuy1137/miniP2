@@ -739,6 +739,7 @@
 .footer .inner-footer .social li i {
     font-size: 16px;
     background: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 1;
